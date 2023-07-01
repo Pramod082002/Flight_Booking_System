@@ -62,7 +62,7 @@ A Java based web application built using Spring boot. Users can book a flight, s
     spring.datasource.password={Your_Password}
 
 ```
-
+* Open the main class and run as Java application from your IDE.
 
 
 
