@@ -49,7 +49,7 @@ A Java based web application built using Spring boot. Users can book a flight, s
 
 ### How to Run:
 
-* Before running the Application, you should update the database config inside the [application.properties](https://github.com/Pramod082002/Flight_Booking_System/src/main/resources/application.properties) file. 
+* Before running the Application, you should update the database config inside the [application.properties](https://github.com/Pramod082002/Flight_Booking_System/blob/main/src/main/resources/application.properties) file. 
 * Update the port number, username and password as per your local database config.
 
 ```
