@@ -2,7 +2,7 @@ services:
   springboot:
     image: surya22119/flightproj:final
         
-    entrypoint: [ "java" , "-jar" , "/flight-application.jar"]
+    
     
     ports:
       - '8080:8080'
@@ -13,6 +13,3 @@ services:
       - MYSQL_DATABASE=flightdb2
       - MYSQL_USER=hbstudent
       - MYSQL_PASSWORD=hbstudent
-    
-      
-    
