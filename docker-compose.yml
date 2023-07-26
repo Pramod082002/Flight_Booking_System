@@ -1,0 +1,20 @@
+services:
+  springboot:
+    image: openjdk
+    volumes: 
+      - "./target/flightbookingsystem-0.0.1-SNAPSHOT.jar:/flight-application.jar"
+    
+    entrypoint: [ "java" , "-jar" , "/flight-application.jar"]
+    
+    ports:
+      - '8080:8080'
+  mysql:
+    image: mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=hbstudent
+      - MYSQL_DATABASE=flightdb2
+      - MYSQL_USER=hbstudent
+      - MYSQL_PASSWORD=hbstudent
+    
+      
+    
