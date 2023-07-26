@@ -1,9 +1,7 @@
 services:
   springboot:
-    image: openjdk
-    volumes: 
-      - "./target/flightbookingsystem-0.0.1-SNAPSHOT.jar:/flight-application.jar"
-    
+    image: surya22119/flightproj:final
+        
     entrypoint: [ "java" , "-jar" , "/flight-application.jar"]
     
     ports:
