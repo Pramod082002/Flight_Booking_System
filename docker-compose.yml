@@ -2,7 +2,7 @@ services:
   springboot:
     image: surya22119/flightproj:final
         
-    entrypoint: [ "java" , "-jar" , "/flight-application.jar"]
+    
     
     ports:
       - '8080:8080'
